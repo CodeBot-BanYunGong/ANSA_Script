@@ -1,4 +1,4 @@
-# PYTHON script created by Matt Obrigkeit 2/26/2020
+
 # This script should be run from within ANSA and will ouput one Nastran file for each row in the InputXLFile.
 # Use only alphanumeric characters and '.' or '_' in the PID names
 # If the PID is part of an interface, it must follow the nomenclature of PART_1_NAME.I.PART_2_NAME where PART_1_NAME and PART_2_NAME contain only alphanumeric characters and '.' and '_'
@@ -26,7 +26,7 @@
 # 	PID name will always end in _VS, _CS, _MI#A or MI#B (if applicable)
 # 	_INLET and _OUTLET
 #   _Q\d+\w+
-# updated GCARLS14 16-July-2024
+
 
 import os
 import sys
